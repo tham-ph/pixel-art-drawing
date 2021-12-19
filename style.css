@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.tools {
+  background-color: black;
+  width: 50%;
+  height: 50px;
+  margin: 10px auto;
+}
+
+.drawing-space {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(16, auto);
+  grid-template-rows: repeat(16, auto);
+  grid-column-gap: 1px;
+  grid-row-gap: 1px;
+}
+
