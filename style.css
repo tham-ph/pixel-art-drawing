@@ -1,15 +1,63 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: white;
+  font-family: 'Prompt', sans-serif;
 }
 
 .tools {
-  background-color: black;
-  width: 50%;
-  height: 50px;
-  margin: 10px auto;
+  display: flex;
+  margin: 1rem auto;
+  justify-content: center;
+  align-items: center;
 }
 
+.pen, .erase{
+  margin: 0 0.5rem;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.clear {
+  margin: 0 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: rgb(50, 50, 50);
+  color: white;
+  padding: 10px;
+  border-radius: 0.5rem;
+}
+
+.pen.one {
+ background-color: blue;
+}
+.pen.two {
+ background-color: red;
+}
+.pen.three {
+ background-color: black;
+}
+.pen.four {
+ background-color: white;
+}
+
+.pen:hover, .eraser:hover{
+  width: 45px;
+  height: 45px;
+}
+
+.clear:hover {
+  padding: 12px;
+}
+
+.grid-size {
+  text-align: center;
+}
+.grid-size p {
+  margin: 0;
+}
 .drawing-space {
   width: 500px;
   height: 500px;
@@ -17,7 +65,5 @@ body {
   display: grid;
   grid-template-columns: repeat(16, auto);
   grid-template-rows: repeat(16, auto);
-  grid-column-gap: 1px;
-  grid-row-gap: 1px;
 }
 
