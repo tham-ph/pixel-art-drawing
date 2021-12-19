@@ -3,11 +3,8 @@ window.addEventListener("load", function() {
   for (let i = 0; i < 16; i++) {
     for (let j = 0; j < 16; j++) {
       pixel = document.createElement("div");
-      if ( (i + j) % 2 === 0) {
-        pixel.style.backgroundColor = "white";
-      } else {
-        pixel.style.backgroundColor = "lightgrey";
-      }
+      pixel.style.backgroundColor = "white";
+      pixel.style.border = "1px solid black"
       drawingSpace.append(pixel);
     }
   }
