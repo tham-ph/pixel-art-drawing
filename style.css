@@ -12,12 +12,10 @@ body {
   align-items: center;
 }
 
-.pen, .erase{
+.pen{
   margin: 0 0.5rem;
   width: 40px;
   height: 40px;
-  border: 1px solid black;
-  border-radius: 50%;
 }
 
 .clear {
@@ -30,20 +28,8 @@ body {
   border-radius: 0.5rem;
 }
 
-.pen.one {
- background-color: blue;
-}
-.pen.two {
- background-color: red;
-}
-.pen.three {
- background-color: black;
-}
-.pen.four {
- background-color: white;
-}
 
-.pen:hover, .eraser:hover{
+.pen:hover{
   width: 45px;
   height: 45px;
 }
