@@ -6,5 +6,5 @@
 <ul>
     <li>Select pen colors.</li>
     <li>Clear the space.</li>
-    <li>Create the grid up to 50 x 50 pixels.</li>
+    <li>Create the grid up to 30 x 30 pixels.</li>
 </ul>
